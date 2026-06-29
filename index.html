@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebSeT terminal</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="inline">WebSeT Terminal</h1>
+            <label for="baud">Baudrate:</label>
+            <select class="inline" name="Baudrate" id="baud"></select>
+            <button class="inline" id="portSelect">Select Port</button>
+        </header>
+        <div id="term">
+            <p>WebSeT Terminal v1</p>
+            <p>Information received from the serial port will appear here.</p>
+            <br>
+            <p></p>
+        </div>
+        <input placeholder="Type here." id="in">
+        <script src="jquery-4.0.0.slim.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
